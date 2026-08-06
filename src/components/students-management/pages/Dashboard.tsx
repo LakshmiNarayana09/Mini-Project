@@ -14,7 +14,7 @@ interface Student {
 }
 
 function Home() {
-  const { data: students, loading, error } = useApi<Student>("http://localhost:3000/students")
+  const { data: students, loading, error } = useApi<Student>("https://json-server-api-oxsu.onrender.com/students")
 
   if (loading) return <div>Loading...</div>
   if (error) return <div>Error: {error}</div>
