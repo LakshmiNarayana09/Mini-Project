@@ -13,7 +13,7 @@ interface Todo {
 function ToDoList() {
   const {
     data: todos,loading,error,addItem,updateItem,deleteItem,
-  } = useApi<Todo>("http://localhost:3000/todos");
+  } = useApi<Todo>("https://json-server-api-oxsu.onrender.com/todos");
 
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({

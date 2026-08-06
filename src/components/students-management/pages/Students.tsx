@@ -27,7 +27,7 @@ function Students() {
     marks: 0,
     attendance: 0,
   };
-  const { data: students, loading, error, addItem, updateItem, deleteItem } = useApi<Student>("http://localhost:3000/students")
+  const { data: students, loading, error, addItem, updateItem, deleteItem } = useApi<Student>("https://json-server-api-oxsu.onrender.com/students")
   const navigate = useNavigate();
 
   const [showForm, setShowForm] = useState(false);
