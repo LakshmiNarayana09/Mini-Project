@@ -21,7 +21,7 @@ function StudentDetails() {
     data: students,
     loading,
     error,
-  } = useApi<Student>("http://localhost:3000/students");
+  } = useApi<Student>("https://json-server-api-oxsu.onrender.com/students");
 
   if (loading) {
     return <div className="p-8 text-center">Loading...</div>;
