@@ -25,7 +25,7 @@ function Home() {
 
         <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
 
-            {/* Welcome Section */}
+            
             <div className="mb-8 rounded-2xl bg-blue-600 p-6 text-white shadow-lg sm:p-8">
             <h1 className="text-2xl font-bold sm:text-3xl">
                 Student Management Dashboard
@@ -44,10 +44,10 @@ function Home() {
             </a>
             </div>
 
-            {/* Statistics Cards */}
+            
             <div className="mb-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
 
-            {/* Total Students */}
+            
             <div className="rounded-xl bg-white p-5 shadow-sm">
                 <p className="text-sm font-medium text-slate-500">
                 Total Students
@@ -62,7 +62,7 @@ function Home() {
                 </p>
             </div>
 
-            {/* Average Marks */}
+            
             <div className="rounded-xl bg-white p-5 shadow-sm">
                 <p className="text-sm font-medium text-slate-500">
                 Average Marks
@@ -85,7 +85,7 @@ function Home() {
                 </p>
             </div>
 
-            {/* Average Attendance */}
+            
             <div className="rounded-xl bg-white p-5 shadow-sm">
                 <p className="text-sm font-medium text-slate-500">
                 Average Attendance
@@ -108,7 +108,7 @@ function Home() {
                 </p>
             </div>
 
-            {/* Courses */}
+            
             <div className="rounded-xl bg-white p-5 shadow-sm">
                 <p className="text-sm font-medium text-slate-500">
                 Courses
@@ -124,7 +124,7 @@ function Home() {
             </div>
             </div>
 
-            {/* Recent Students */}
+            
             <div className="overflow-hidden rounded-2xl bg-white shadow-sm">
 
             <div className="flex flex-col gap-3 border-b border-slate-200 px-6 py-5 sm:flex-row sm:items-center sm:justify-between">
@@ -146,7 +146,7 @@ function Home() {
                 </a>
             </div>
 
-            {/* Responsive Table */}
+            
             <div className="overflow-x-auto">
                 <table className="w-full min-w-[800px]">
 

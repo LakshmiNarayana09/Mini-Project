@@ -63,7 +63,7 @@ function StudentDetails() {
     <div className="min-h-screen bg-gray-100 px-4 py-8">
       <div className="mx-auto max-w-4xl">
 
-        {/* Header */}
+        
         <div className="mb-6 flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold text-gray-800">
@@ -83,10 +83,10 @@ function StudentDetails() {
           </button>
         </div>
 
-        {/* Student Card */}
+        
         <div className="overflow-hidden rounded-2xl bg-white shadow-lg">
 
-          {/* Profile Header */}
+          
           <div className="bg-blue-600 px-6 py-8 text-white">
             <div className="flex items-center gap-5">
 
@@ -111,7 +111,7 @@ function StudentDetails() {
             </div>
           </div>
 
-          {/* Details */}
+          
           <div className="grid gap-6 p-6 sm:grid-cols-2">
 
             <div>
@@ -186,7 +186,7 @@ function StudentDetails() {
 
           </div>
 
-          {/* Performance */}
+          
           <div className="border-t bg-gray-50 p-6">
             <h3 className="mb-4 text-lg font-semibold text-gray-800">
               Academic Performance

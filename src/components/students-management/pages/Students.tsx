@@ -74,7 +74,7 @@ function Students() {
 
   return (
       <div className="min-h-screen bg-gray-100">
-        {/* Page Header */}
+        
         <div className="border-b bg-white shadow-sm">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 lg:px-8">
             <div>
@@ -97,7 +97,7 @@ function Students() {
 
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
 
-          {/* Statistics */}
+          
           <div className="mb-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 
             <div className="rounded-xl bg-white p-5 shadow-sm">
@@ -153,7 +153,7 @@ function Students() {
 
           </div>
 
-          {/* Existing Form */}
+          
           {showForm && (
             <div className="mb-8">
               <form
@@ -173,10 +173,10 @@ function Students() {
                   </p>
                 </div>
 
-                {/* Form Fields */}
+                
                 <div className="grid gap-5 md:grid-cols-2">
 
-                  {/* Name */}
+                  
                   <div>
                     <label className="mb-2 block text-sm font-semibold text-gray-700">
                       Name
@@ -197,7 +197,7 @@ function Students() {
                     />
                   </div>
 
-                  {/* Email */}
+                  
                   <div>
                     <label className="mb-2 block text-sm font-semibold text-gray-700">
                       Email
@@ -218,7 +218,7 @@ function Students() {
                     />
                   </div>
 
-                  {/* Phone */}
+                  
                   <div>
                     <label className="mb-2 block text-sm font-semibold text-gray-700">
                       Phone
@@ -239,7 +239,7 @@ function Students() {
                     />
                   </div>
 
-                  {/* Gender */}
+                  
                   <div>
                     <label className="mb-2 block text-sm font-semibold text-gray-700">
                       Gender
@@ -262,7 +262,7 @@ function Students() {
                     </select>
                   </div>
 
-                  {/* Course */}
+                  
                   <div>
                     <label className="mb-2 block text-sm font-semibold text-gray-700">
                       Course
@@ -301,7 +301,7 @@ function Students() {
                     </select>
                   </div>
 
-                  {/* Year */}
+                  
                   <div>
                     <label className="mb-2 block text-sm font-semibold text-gray-700">
                       Year
@@ -326,7 +326,7 @@ function Students() {
                     </select>
                   </div>
 
-                  {/* Marks */}
+                  
                   <div>
                     <label className="mb-2 block text-sm font-semibold text-gray-700">
                       Marks
@@ -349,7 +349,7 @@ function Students() {
                     />
                   </div>
 
-                  {/* Attendance */}
+                  
                   <div>
                     <label className="mb-2 block text-sm font-semibold text-gray-700">
                       Attendance (%)
@@ -373,7 +373,7 @@ function Students() {
                   </div>
                 </div>
 
-                {/* Buttons */}
+                
                 <div className="mt-8 flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
                   <button
                     type="button"
@@ -400,10 +400,10 @@ function Students() {
             </div>
           )}
 
-          {/* Student Table */}
+          
           <div className="overflow-hidden rounded-xl bg-white shadow-sm">
 
-            {/* Table Header */}
+            
             <div className="border-b px-6 py-5">
               <h2 className="text-lg font-semibold text-gray-800">
                 Student List
@@ -565,7 +565,7 @@ function Students() {
               </table>
             </div>
 
-            {/* Empty State */}
+            
             {students.length === 0 && (
               <div className="px-6 py-12 text-center">
                 <p className="text-gray-500">
