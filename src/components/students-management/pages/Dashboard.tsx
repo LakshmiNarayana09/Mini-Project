@@ -1,5 +1,6 @@
 import Navbar from "../navbar/Navbar"
 import useApi from "../../../hooks/useApi"
+import { Link } from "react-router-dom"
 
 interface Student {
   "id": number,
@@ -36,12 +37,11 @@ function Home() {
                 student information easily.
             </p>
 
-            <a
-                href="/students"
-                className="mt-5 inline-block rounded-lg bg-white px-5 py-2.5 font-semibold text-blue-600 transition hover:bg-blue-50"
-            >
-                View All Students
-            </a>
+            <Link to="/students" className="mt-5 inline-block rounded-lg bg-white px-5 py-2.5 font-semibold text-blue-600 transition hover:bg-blue-50" >
+                 View All Students
+            </Link>
+
+            
             </div>
 
             
@@ -138,12 +138,9 @@ function Home() {
                 </p>
                 </div>
 
-                <a
-                href="/students"
-                className="text-sm font-semibold text-blue-600 hover:text-blue-700"
-                >
-                View All →
-                </a>
+                <Link to="/students" className="text-sm font-semibold text-blue-600 hover:text-blue-700">
+                    View All →
+                </Link>
             </div>
 
             
