@@ -13,7 +13,7 @@ function UserManagement() {
 
     const {
                     data: users, loading, error, addItem, updateItem,deleteItem,
-                } = useApi<User>("https://json-server-api-oxsu.onrender.com/users");
+                } = useApi<User>("https://json-server-api-oxsu.onrender.com/users1");
 
     const [showForm, setShowForm] = useState(false);
 
